@@ -1,50 +1,16 @@
 /* ==========================================================================
-   Purely Sweet — Ebook Catalog & Free Gluten-Free Dessert Recipes
-   Edit prices, descriptions, Stripe/Gumroad links, or add recipes here.
+   Purely Sweet — Single $5 Payhip Ebook & 4 Free Gluten-Free Dessert Recipes
    ========================================================================== */
 
 window.PURELY_SWEET_DATA = {
-  ebooks: [
-    {
-      id: "purely-sweet",
-      title: "Purely Sweet: 60 Everyday GF Desserts",
-      subtitle: "190 Pages · 60 Recipes",
-      tag: "Bestseller",
-      price: 24,
-      oldPrice: 32,
-      image: "images/ebook-cover.jpg",
-      description:
-        "Our flagship cookbook featuring foolproof cakes, brownies, tarts, cookies, and our complete GF Flour Pairing Guide.",
-      fileLabel: "Purely-Sweet-60-GF-Desserts.pdf (42 MB)",
-      bundle: false
-    },
-    {
-      id: "chocolate-caramel",
-      title: "The Chocolate & Caramel Collection",
-      subtitle: "110 Pages · 32 Recipes",
-      tag: "Fan Favorite",
-      price: 18,
-      oldPrice: 24,
-      image: "images/caramel-brownies.jpg",
-      description:
-        "Deep dark ganache tarts, molten lava cakes, salted caramel pecan brownies, and silky mousse—all 100% gluten-free.",
-      fileLabel: "Chocolate-Caramel-GF-Collection.pdf (28 MB)",
-      bundle: false
-    },
-    {
-      id: "complete-bundle",
-      title: "The Complete Baker’s Bundle (All 3 Ebooks)",
-      subtitle: "420+ Pages · 125+ Recipes",
-      tag: "Best Value · Save $15",
-      price: 49,
-      oldPrice: 64,
-      image: "images/hero-tart.jpg",
-      description:
-        "Includes Purely Sweet, The Chocolate & Caramel Collection, plus Holiday & Celebration Baking and our Printable Pantry Charts.",
-      fileLabel: "Purely-Sweet-Complete-Bundle.zip (112 MB)",
-      bundle: true
-    }
-  ],
+  ebook: {
+    id: "Me7UI",
+    title: "Gluten-Free Desserts: 50 Effortless Recipes",
+    subtitle: "63 Full-Color Pages · 50 Tested Recipes",
+    price: 5,
+    oldPrice: 19,
+    image: "images/ebook-50-cover.jpg"
+  },
 
   recipes: [
     {

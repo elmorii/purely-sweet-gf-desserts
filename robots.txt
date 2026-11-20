@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://purelysweetbakes.com/sitemap.xml
+Sitemap: https://purely-sweet-gf-desserts.pages.dev/sitemap.xml
